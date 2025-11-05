@@ -118,12 +118,7 @@ const Index = () => {
               variants={itemVariants}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 mb-6"
             >
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-              >
                 <Sparkles className="w-4 h-4 text-primary" />
-              </motion.div>
               <span className="text-sm font-medium text-foreground">
                 Powered by AI Fairness Technology
               </span>
@@ -146,7 +141,7 @@ const Index = () => {
                 </motion.span>
                 <br />
                 <motion.span
-                  className="inline-block bg-gradient-to-r from-accent via-secondary to-primary bg-clip-text text-transparent"
+                  className="inline-block bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
                   animate={{
                     backgroundPosition: ["0%", "100%", "0%"],
                   }}
